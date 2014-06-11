@@ -1,0 +1,15 @@
+<script src="langton.js"></script>
+
+<p>a<p>b<p>c
+
+<div>
+
+  <canvas id="canvas" width="400" height="400" style="border:1px solid #000000;"></canvas>
+  <p>
+    <button onClick="ant.pause()">Pause</button>
+    <script>
+      var ant = new Langton("canvas", 100, 100, 4);
+      ant.start();
+    </script>
+</div>
+
